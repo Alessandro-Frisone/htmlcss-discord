@@ -182,12 +182,10 @@ header{
 }
 
 .col-big-red {
-    min-height: 500px;
-    width: 500px;
+    width: 40%;
 }
 
 .col-small-green {
-    min-height: 500px;
     width: 15%;
 }
 
