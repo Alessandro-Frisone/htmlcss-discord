@@ -168,7 +168,7 @@ header{
 /* FOOTER */
 .footer-section { 
     background-color: #22272a;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .col-big-red {
@@ -193,4 +193,14 @@ header{
 
 .bottone {
     padding: 6px;
+}
+
+.col-small-green ul{
+    list-style: none;
+    color: white;
+    line-height: 2;
+}
+
+ul li:first-child{
+    color: #7e82d6;
 }
