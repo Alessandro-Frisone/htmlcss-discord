@@ -183,6 +183,8 @@ header{
 
 .col-big-red {
     width: 40%;
+    text-align: left;
+    color: white;
 }
 
 .col-small-green {
@@ -210,5 +212,22 @@ header{
 }
 
 .col-small-green li:first-child{
+    color: #7e82d6;
+}
+
+.container1{
+    display: flex;
+    gap: 10px;
+}
+
+.col-big-red img{
+    max-width: 20px;
+}
+
+.col-big-red h2, .col-big-red p{
+    text-align: left;
+}
+
+h2{
     color: #7e82d6;
 }
