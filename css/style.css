@@ -162,6 +162,16 @@ header{
 
 .col-green h1, p{
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.col-green h2, p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.col-small h1, p{
+    margin-bottom: 20px;
 }
 
 
@@ -201,6 +211,6 @@ header{
     line-height: 2;
 }
 
-ul li:first-child{
+.col-small-green li:first-child{
     color: #7e82d6;
 }
