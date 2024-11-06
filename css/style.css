@@ -1,0 +1,167 @@
+/*  RESET  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* DEBUG */
+.debug .header-top{
+    background-color: #add8e6;
+}
+.debug .header-bottom{
+    background-color: #001e83;
+}
+.debug .header-top>.container{
+    background-color: #daa520;
+}
+.debug .header-top>*{
+    border: 1px dashed black;
+}
+.debug .col-center{
+    background-color: #ee82ee;
+    border: 1px dashed;
+}
+.debug .col-big{
+    background-color: #1f90ff;
+    border: 1px dashed;
+}
+.debug .col-small{
+    background-color: #ffc0cb;
+    border: 1px dashed;
+}
+.debug .col-green{
+    background-color: #228b22;
+    border: 1px dashed;
+}
+.debug .col-big-red{
+    background-color: #ef8080;
+    border: 1px dashed;
+}
+.debug .col-small-green{
+    background-color: #21b2aa;
+    border: 1px dashed white;
+}
+.debug .footer-bottom>.container{
+    background-color: #80fed4;
+}
+.debug .logo1{
+    background-color: #ecb7c2;
+    border: 1px dashed;
+}
+.debug .bottone{
+    background-color: #ecb7c2;
+    border: 1px dashed;
+}
+
+
+
+
+/* GENERAL */
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* HEADER */
+.header-top {
+    padding: 15px 0;
+}
+
+.header-bottom {
+    padding: 30px 0;
+}
+
+.header-top>.container {
+    display: flex;
+}
+
+.header-top>* {
+    padding: 6px;
+}
+
+.header-top .logo,
+.header-top .login {
+    width: 20%;
+}
+
+.header-top .login {
+    text-align: right;
+}
+
+.header-top nav {
+    width: 60%;
+    text-align: center;
+}
+
+.col-center {
+    min-height: 200px;
+    width: 800px;
+}
+
+
+
+
+/* MAIN */
+.section {
+    padding: 30px 0;
+}
+
+.col-big {
+    min-height: 250px;
+    width: 1000px;
+}
+
+.col-small {
+    min-height: 250px;
+    width: 400px;
+}
+
+.second-section {
+    background-color: lightgray;
+    padding: 30px 0;
+}
+
+.col-green {
+    min-height: 600px;
+    width: 1200px;
+}
+
+
+
+
+/* FOOTER */
+.footer-section { 
+    background-color: #22272a;
+    padding: 30px 0;
+}
+
+.col-big-red {
+    min-height: 500px;
+    width: 500px;
+}
+
+.col-small-green {
+    min-height: 500px;
+    width: 15%;
+}
+
+.footer-bottom>.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.logo1 {
+    padding: 6px;
+}
+
+.bottone {
+    padding: 6px;
+}
