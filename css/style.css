@@ -5,57 +5,6 @@
     padding: 0;
 }
 
-/* DEBUG */
-.debug .header-top{
-    background-color: #add8e6;
-}
-.debug .header-bottom{
-    background-color: #001e83;
-}
-.debug .header-top>.container{
-    background-color: #daa520;
-}
-.debug .header-top>*{
-    border: 1px dashed black;
-}
-.debug .col-center{
-    background-color: #ee82ee;
-    border: 1px dashed;
-}
-.debug .col-big{
-    background-color: #1f90ff;
-    border: 1px dashed;
-}
-.debug .col-small{
-    background-color: #ffc0cb;
-    border: 1px dashed;
-}
-.debug .col-green{
-    background-color: #228b22;
-    border: 1px dashed;
-}
-.debug .col-big-red{
-    background-color: #ef8080;
-    border: 1px dashed;
-}
-.debug .col-small-green{
-    background-color: #21b2aa;
-    border: 1px dashed white;
-}
-.debug .footer-bottom>.container{
-    background-color: #80fed4;
-}
-.debug .logo1{
-    background-color: #ecb7c2;
-    border: 1px dashed;
-}
-.debug .bottone{
-    background-color: #ecb7c2;
-    border: 1px dashed;
-}
-
-
-
 
 /* GENERAL */
 .container {
@@ -79,7 +28,9 @@ h1{
     font-size: 40px;
 }
 
-
+h2{
+    text-align: center;
+}
 
 
 /* BUTTONS */
@@ -114,7 +65,10 @@ h1{
     gap: 25px;
 }
 
-
+.btn-viola{
+    background-color: #979cdd;
+    color: white;
+}
 
 
 
@@ -166,7 +120,6 @@ header{
 }
 
 .col-center {
-    min-height: 150px;
     width: 800px;
     text-align: center;
 }
@@ -184,13 +137,12 @@ header{
 }
 
 .col-big {
-    min-height: 250px;
-    width: 1000px;
+    width: 60%;
 }
 
 .col-small {
-    min-height: 250px;
-    width: 325px;
+    width: 40%;
+    padding: 90px 90px;
 }
 
 .second-section {
@@ -199,11 +151,18 @@ header{
 }
 
 .col-green {
-    min-height: 600px;
-    width: 1200px;
+    width: 85%;
+    padding: 30px 30px;
+    text-align: center;
 }
 
+.col-big img{
+    max-width: 100%;
+}
 
+.col-green h1, p{
+    text-align: center;
+}
 
 
 /* FOOTER */
