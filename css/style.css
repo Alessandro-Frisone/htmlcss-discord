@@ -39,6 +39,7 @@ h2{
     padding: 8px 16px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .btn > i{
